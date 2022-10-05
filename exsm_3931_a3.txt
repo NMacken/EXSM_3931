@@ -1,0 +1,21 @@
+Customer
+IF customer hungry THEN 
+    select snack
+    insert coins in machine 
+    INPUT snack code
+    receives snack 
+    receives change 
+END IF
+
+Machine Owner 
+DO 
+    open machine with key
+IF 
+    snacks need refill THEN 
+    add snacks  
+    check coin storage
+IF  coin storage full THEN 
+    empty storage           
+ELSE 
+    close machine 
+END IF             
